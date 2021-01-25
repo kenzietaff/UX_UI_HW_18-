@@ -1,0 +1,224 @@
+
+
+   *{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+  background: #fffffa;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  height: 72px;
+  padding: 10px;
+  /* z-index: 500; */
+  /* position: relative; */
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+} */
+
+/* nav ul {
+  display: flex;
+} */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  color: #021718;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li:nth-last-of-type(1) {
+}
+
+.nav-items li a {
+  color: #021718;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+/* Header */
+
+.header-container {
+  background: #FFF8F5 url("images/bg-shape.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: calc(100vh - 72px);
+  /* display: flex; */
+  align-items: center;
+}
+
+.hero-content {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content h1 {
+  font-family: 'Abril Fatface';font-size: 22px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 75px;
+  color: #021718;
+  margin-bottom: 24px;
+}
+.hero-content h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 75px;
+  color: #021718;
+  margin-bottom: 24px;
+}
+.hero-content p {
+  font-size: 24px;
+  line-height: 42px;
+  color: #021718;
+  margin-bottom: 48px;
+}
+
+.connectbtn {
+  color: #fffffa;
+  font-size: 24px;
+  text-decoration: none;
+  background: #E7A28D;
+  border-radius: 8px;
+  padding: 12px 48px;
+  transition: 300ms;
+}
+
+.hero-content a:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Hero image */
+
+/* .hero-image {
+  position: relative;
+} */
+
+.hero-image {
+  transition: 300ms;
+  /* position: relative;
+  z-index: 100; */
+  width: 100%;
+} 
+
+.hero-image img:hover {
+  transform: rotate(-6deg);
+}
+
+.photo-bg {
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  left: 45px;
+  top: 24px;
+
+  background: #FCE2D5;
+  transform: rotate(-6deg);
+}
+
+/* Search Box
+
+.search-box {
+  width: 1200px; 
+  margin: 0 auto;
+  text-align: right;
+ position: relative;
+  top: 0;
+   z-index: 101; 
+  transition: 300ms;
+}
+.search-box.active {
+  top: 72px;
+}
+
+.search-box input {
+  background: #fffffa;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 8px 8px;
+
+  font-size: 24px;
+  line-height: 42px;
+  border: 0;
+  padding: 12px 48px;
+}
+
+.search-box input::placeholder {
+  color: #b3b3b3;
+} */
+
+/* Search & Close Buttons
+
+.nav-btn-container {
+  display: flex;
+  position: relative;
+}
+
+.nav-btn-container img {
+  position: absolute;
+}
+
+.nav-btn-container .close-btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: 300ms;
+}
+
+.nav-btn-container .search-btn {
+  pointer-events: auto;
+  transition: 300ms;
+}
+
+.nav-btn-container.active .search-btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+}
+
+.nav-btn-container.active .close-btn {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+} */
+
+/* Hidden Items */
+
+ /* .search-box {
+   display: none; 
+}  */
+
+/* .container { 
+  background: #fffffa;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  height: 72px;
+  margin-top: -65px;
+  z-index: 500;
+  position: relative;
+} */
