@@ -2,89 +2,65 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <title>Kenzie Taff</title>
-  <link rel="stylesheet" href="css/index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kenzie Taff</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <!--div class="search-box">
-      <input type="text" placeholder="Search here..." />
-    </div> -->
-  <header>
-    <div>
-      <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">KT.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Connect</a>
-              </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+    <div class="nav-container">
+        <!-- <div class="wrapper"> -->
+        <nav>
+            <div class="logo">
+                KT.
             </div>
-          </div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#news">Projects</a>
+                    <a href="#contact">About</a>
+                    <a href="#about">Connect</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            </li>
+            </ul>
         </nav>
-      </div>
+        <!-- </div> -->
     </div>
-  </header>
-
-  <main>
-    <div class="container-fluid header-container">
-      <div class="row wrapper">
-        <div class="col-12 col-md-6 hero-content">
-          <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-          <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
-          <h1>Kenzie Taff</h1>
-          <h2>UX/CRO DESIGNER | USER ANALYST</h2>
-          <p>
-            I am a conversion driven experience designer with an empathetic approach to all users. I have a user/human
-            first approach backed by strategic and data driven methodologies.
-          </p>
-          <button class="connectbtn" href="#">
-            Connect with Me
-          </button>
-        </div>
-
-
-        <div class="img-fluid col-12 col-md-6">
-          <img src="images/person.png" alt="Kenzie Taff" class="hero-image" />
-          <div class="img-fluid photo-bg"></div>
-        </div>
-      </div>
+    <div class="header-container">
+        <!-- <div class="wrapper"> -->
+            <header>
+                <div class="hero-content">
+                    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+                    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+                    <h1>Kenzie Taff</h1>
+                    <h2>UX/CRO DESIGNER | USER ANALYST</h2>
+                    <p>
+                        I am a conversion driven experience designer </br> with an empathetic approach to all users.
+                        </br> have a user/human first approach backed by </br> strategic and data driven methodologies.
+                    </p>
+                    </br></br>
+                    <a href="#">
+                        Connect with Me
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/person.png" alt="" />
+                    <div class="photo-bg"></div>
+                </div>
+            </header>
+        <!-- </div> -->
     </div>
-  </main>
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
